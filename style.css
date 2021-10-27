@@ -1,0 +1,70 @@
+h1 {
+  font-weight: 700;
+  color: darkcyan
+}
+
+a:hover {
+  background-color: grey;
+}
+
+a {
+  color: purple;
+  text-decoration: underline;
+}
+
+h4 {
+  color: darkslateblue
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgba(230,230,230,0.5);
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.social-media li {
+  display:inline-block;
+  font-size: 50px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+img {
+  border-radius: 50%;
+  width: 130px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
